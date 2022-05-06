@@ -15,6 +15,25 @@ Machine: Sienci Longmill 30x30 Mk2
 9. **Zero Z** axis
 10. Position dust shield
 11. Ensure vacuum hose isn't tangled or encumbered 
-12. **Are you wearing dust shield, eye and hearing protection?????**
+12. **Are you wearing dust mask, eye and hearing protection?????**
 13. Turn on router
 14. Start program
+
+# Fusion 360 Design / Manufacture Notes
+
+- Measure work piece Z height with caliper
+- Manufacture parameters to change:
+  - Tool
+    - [Param suggestions](https://resources.sienci.com/view/lmk2-feeds-and-speeds/)
+    - Spindle speed
+    - Cutting feedrate
+    - Plunge feedrate
+  - Geometry
+    - Select contours (cut out) / pockets (cut everything within)
+    - Add tabs (increase distance as Fusion 360 loves tabs)
+  - Heights
+    - Make certain "Bottom Height" is "Stock bottom"
+  - Passes
+    - **SELECT "Multiple Depths"** 
+    - Change "Maximum Roughing Stepdown" to 1-4mm, depending on [this](https://resources.sienci.com/view/lmk2-feeds-and-speeds/)
+  - Export gcode (as .nc) by right clicking on the setup and selecting "Post process" 
