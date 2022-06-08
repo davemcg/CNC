@@ -14,7 +14,7 @@ Machine: Sienci Longmill 30x30 Mk2
 7. Run "Outline" to ensure the bit is moving where you expect and won't strike any clamps / etc
 8. Drop bit to right above work piece (use piece of paper)
 9. **Zero Z** axis
-10. Position dust shield
+10. Position dust shoe
 11. Ensure vacuum hose isn't tangled or encumbered 
 12. **Are you wearing dust mask, eye and hearing protection?????**
 13. Turn on router (is it plugged in now?)
