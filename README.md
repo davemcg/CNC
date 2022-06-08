@@ -17,7 +17,7 @@ Machine: Sienci Longmill 30x30 Mk2
 10. Position dust shoe
 11. Ensure vacuum hose isn't tangled or encumbered 
 12. **Are you wearing dust mask, eye and hearing protection?????**
-13. Turn on router (is it plugged in now?)
+13. Turn on router 
 14. Start program
 15. Be ready to mash the "kill" button
 
