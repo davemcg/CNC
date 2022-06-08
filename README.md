@@ -41,3 +41,12 @@ Machine: Sienci Longmill 30x30 Mk2
     - Change "Maximum Roughing Stepdown" to 1-4mm, depending on [this](https://resources.sienci.com/view/lmk2-feeds-and-speeds/)
   - Export gcode (as .nc) by right clicking on the setup and selecting "Post process" 
     - Set the bit retract height to the Fusion 360 retract height as the bit can plunge into the material if something is wonky about the G28 (?) param. 
+
+# Machining notes
+
+1. Get bit at the zero position (XYZ). Drill (manually) through the base material. Now you have (one) reference point on both sides. Remember to machine the other side you will have to flip the origin to the other X dimension
+2. Consider two points (can manually jog the bit up X/Y) for better precision
+3. Resist the urge to skip the dust shoe. Everything makes a lot of mess. 
+4. If you are doing an outside cut on thick (Z) material, place some blocking wood to semi-contain the wood bits that will be flung away
+5. Remember, if you use a ball noise bit on a flat cut, it will have annoying grooves
+
