@@ -18,6 +18,7 @@ Machine: Sienci Longmill 30x30 Mk2
 12. **Are you wearing dust mask, eye and hearing protection?????**
 13. Turn on router
 14. Start program
+15. Be ready to mash the "kill" button
 
 # Fusion 360 Design / Manufacture Notes
 
@@ -30,10 +31,12 @@ Machine: Sienci Longmill 30x30 Mk2
     - Plunge feedrate
   - Geometry
     - Select contours (cut out) / pockets (cut everything within)
-    - Add tabs (increase distance as Fusion 360 loves tabs)
+    - Add tabs if necesary
+    - Suggest "adaptive" 2D/3D clearing as it appears (as of 2022-06) to do a better job at removing the right amount of material (was runnning into some issues where a 3D pocket clearing wasn't taking enough material for a box joint)
   - Heights
     - Make certain "Bottom Height" is "Stock bottom"
   - Passes
     - **SELECT "Multiple Depths"** 
     - Change "Maximum Roughing Stepdown" to 1-4mm, depending on [this](https://resources.sienci.com/view/lmk2-feeds-and-speeds/)
   - Export gcode (as .nc) by right clicking on the setup and selecting "Post process" 
+    - Set the bit retract height to the Fusion 360 retract height as the bit can plunge into the material if something is wonky about the G28 (?) param. 
