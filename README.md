@@ -39,7 +39,7 @@ Machine: Sienci Longmill 30x30 Mk2
     - Suggest "adaptive" 2D/3D clearing as it appears (as of 2022-06) to do a better job at removing the right amount of material (was runnning into some issues where a 3D pocket clearing wasn't taking enough material for a box joint)
     - Run Simulate to ensure nothing wacky is happening
   - Heights
-    - Make certain "Bottom Height" is "Stock bottom"
+    - **If** you selected the top of the model for contour selection, make certain "Bottom Height" is "Stock bottom"
   - Passes
     - **SELECT "Multiple Depths"** 
     - Change "Maximum Roughing Stepdown" to 1-4mm, depending on [this](https://resources.sienci.com/view/lmk2-feeds-and-speeds/)
