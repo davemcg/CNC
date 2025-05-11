@@ -24,6 +24,8 @@ Machine: Sienci Longmill 30x30 Mk2
 # Fusion 360 Design / Manufacture Notes
 
 - Measure work piece Z height with caliper
+- Lay out as follows <img width="211" alt="Screenshot 2025-05-10 at 9 49 52 PM" src="https://github.com/user-attachments/assets/b9b8db5b-e74a-4b73-86e0-e7e58514897a" /> (bottom is towards garage door).
+- Multiply body (Modify -> Scale) * 1.015 for Y axis to meet reality. Still have to verify X axis.
 - Set origin (usually) to the top of the material to cut!
 - Add extra stock around the model (otherwise tabs are not possible)
 - Manufacture parameters to change:
