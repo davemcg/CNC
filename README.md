@@ -56,3 +56,8 @@ Machine: Sienci Longmill 30x30 Mk2
 3. If you are doing an outside cut on thick (Z) material, place some blocking wood to semi-contain the wood bits that will be flung away
 4. Remember, if you use a ball noise bit on a flat cut, it will have annoying grooves
 
+
+# Calibration 
+
+- Fusion360 xaxis design 37.75mm actual 38.5mm
+- Fusion360 yaxis design 38.25mm actual 38.5mm
